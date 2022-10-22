@@ -5,7 +5,9 @@ import PokemonCard from './components/PokemonCard'
 
 function App() {
 
+  //* Gaurda la información que nos trae la API
   const [pokemon, setPokemon] = useState()
+  //* Guarda el texto que nos da el usuario en input
   const [textSearch, setTextSearch] = useState('')
 
   useEffect(() => {
